@@ -30,6 +30,9 @@ scratch/
 .env.local
 *.key
 
+# Local-only development notes (not for distribution)
+CLAUDE.md
+
 # Audio / video artifacts in repo root (people often dump samples)
 /*.wav
 /*.mp3
