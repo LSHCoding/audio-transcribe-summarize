@@ -40,7 +40,14 @@
 - 「这个播客转成文字版和总结」
 - 「字幕里英文术语都被转错了，帮我修一下并写总结」
 
-skill 知道怎么调用打包好的 `pipeline.py`，你只要把音频文件路径告诉 Claude 就行。
+一个完整的端到端例子 —— 把音频和背景介绍放在同一个文件夹里，然后在 Claude Code 里说：
+
+```text
+将播客 ./260620-SpaceX/口述SpaceX开发史-洪力德-商业访谈录.m4a 转写为文字版并进行总结，
+播客的介绍在 ./260620-SpaceX/intro.md
+```
+
+Claude 自己挑出这个 skill，组好 `--intro` 和 `--out-dir` 调 `pipeline.py`。你不用记 CLI 参数。
 
 ### 方案 B —— 直接当 CLI 用（不依赖 Claude Code）
 

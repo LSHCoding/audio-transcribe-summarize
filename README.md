@@ -40,7 +40,14 @@ After installation, the skill is auto-invoked when you ask Claude things like:
 - "Turn this podcast into a transcript and summary"
 - "字幕里英文术语都被转错了，帮我修一下并写总结"
 
-The skill knows how to call the bundled `pipeline.py`; you just point Claude at the audio file path.
+A concrete end-to-end example — drop both files in a folder, then in Claude Code:
+
+```text
+将播客 ./260620-SpaceX/口述SpaceX开发史-洪力德-商业访谈录.m4a 转写为文字版并进行总结，
+播客的介绍在 ./260620-SpaceX/intro.md
+```
+
+Claude reads your prompt, picks this skill, and calls the bundled `pipeline.py` with the right `--intro` and `--out-dir` flags. You don't have to remember the CLI yourself.
 
 ### Option B — standalone CLI (no Claude Code required)
 
