@@ -8,7 +8,7 @@
 
 Most ASR + LLM-summarize stacks (OpenAI Whisper API + GPT-4o, or commercial transcription services) cost a few US dollars per hour of audio. This pipeline uses **Xiaomi MiMo** by default — `mimo-v2.5` (multimodal ASR) for transcription and `mimo-v2.5-pro` (1T MoE, 1M context) for revision and summarization. Concretely:
 
-- **~1.6 RMB (~$0.22) for 8–10 hours** of mixed Chinese / English audio, end to end.
+- **~1.6 RMB (~$0.22) for 6–8 hours** of mixed Chinese / English audio, end to end.
 - One pass produces both a cleaned-up transcript and a 1500+ character structured summary; you don't pay separately for ASR and summarization.
 - DeepSeek is supported by model prefix if you'd rather use it for the revise / summarize steps.
 

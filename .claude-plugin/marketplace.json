@@ -12,7 +12,7 @@
     {
       "name": "audio-transcribe-summarize",
       "source": "./",
-      "description": "Turn local audio/video into a corrected transcript and a structured Markdown summary. ASR via mimo-v2.5, revise & summarize via mimo-v2.5-pro (DeepSeek supported by model prefix). ~1.6 RMB for 8–10 hours.",
+      "description": "Turn local audio/video into a corrected transcript and a structured Markdown summary. ASR via mimo-v2.5, revise & summarize via mimo-v2.5-pro (DeepSeek supported by model prefix). ~1.6 RMB for 6–8 hours.",
       "version": "0.1.0",
       "author": {
         "name": "lsh",
