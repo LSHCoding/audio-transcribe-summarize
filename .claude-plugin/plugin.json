@@ -1,0 +1,23 @@
+{
+  "name": "audio-transcribe-summarize",
+  "version": "0.1.0",
+  "description": "Turn local audio/video (zh/en/mixed, any ffmpeg format, optional multi-file concat) into two Markdown files — a corrected transcript with speaker tags and a structured summary. Uses Xiaomi MiMo (mimo-v2.5 for ASR, mimo-v2.5-pro for revise & summarize) by default; DeepSeek is supported by model prefix. ~1.6 RMB for 8–10 hours of audio.",
+  "author": {
+    "name": "lsh",
+    "url": "https://github.com/LSHCoding"
+  },
+  "homepage": "https://github.com/LSHCoding/audio-transcribe-summarize",
+  "repository": "https://github.com/LSHCoding/audio-transcribe-summarize",
+  "license": "MIT",
+  "keywords": [
+    "audio",
+    "transcribe",
+    "asr",
+    "summarize",
+    "meeting-notes",
+    "xiaomi-mimo",
+    "deepseek",
+    "chinese",
+    "skill"
+  ]
+}

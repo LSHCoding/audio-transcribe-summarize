@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local test outputs / scratch
+*_文字版.md
+*_总结版.md
+test_audio/
+test_outputs/
+scratch/
+
+# Secrets / env
+.env
+.env.local
+*.key
+
+# Audio / video artifacts in repo root (people often dump samples)
+/*.wav
+/*.mp3
+/*.m4a
+/*.mp4
+/*.mov
+/*.webm

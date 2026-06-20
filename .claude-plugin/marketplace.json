@@ -1,0 +1,27 @@
+{
+  "name": "audio-transcribe-summarize",
+  "owner": {
+    "name": "lsh",
+    "url": "https://github.com/LSHCoding"
+  },
+  "metadata": {
+    "description": "Single-plugin marketplace shipping the audio-transcribe-summarize skill: turn local audio/video into a corrected transcript and a structured Markdown summary using Xiaomi MiMo (default) or DeepSeek.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "audio-transcribe-summarize",
+      "source": "./",
+      "description": "Turn local audio/video into a corrected transcript and a structured Markdown summary. ASR via mimo-v2.5, revise & summarize via mimo-v2.5-pro (DeepSeek supported by model prefix). ~1.6 RMB for 8–10 hours.",
+      "version": "0.1.0",
+      "author": {
+        "name": "lsh",
+        "url": "https://github.com/LSHCoding"
+      },
+      "homepage": "https://github.com/LSHCoding/audio-transcribe-summarize",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["audio", "transcribe", "asr", "summarize", "mimo", "deepseek"]
+    }
+  ]
+}
